@@ -1,10 +1,10 @@
 # Simulation d'une IA Azure Cognitive Services
-confiance = 0.85
+confiance = 0.80
 
 print("--- Analyse d'image IA ---")
 if confiance > 0.80:
     print("Résultat : L'IA est sûre qu'il s'agit d'un chat !")
-elif confiance<81 & confiance>65:
+elif confiance<0.81 and  confiance>0.65:
     print("Résultat : L’IA hesite encore")
 else:
     print("Résultat : Ce n est probablement pas un chat")
